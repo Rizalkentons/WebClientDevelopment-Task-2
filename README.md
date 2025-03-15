@@ -80,13 +80,13 @@ console.log('Hello, TypeScript!');
  git add .
 ```
 
-**Lakukan Commit Perubahan**
+## 2. **Lakukan Commit Perubahan**
   Simpan perubahan dengan menjalankan commit :
    ```bash
    git commit -m "Nama Perubahan/Nama File/"
    ```
 
-5. **Push Perubahan ke GitHub**
+## 3. **Push Perubahan ke GitHub**
    Untuk mengirim perubahan ke repository di GitHub, jalankan perintah berikut:
    ```bash
    git push origin main
@@ -95,6 +95,59 @@ console.log('Hello, TypeScript!');
 
 
    ![image](https://github.com/user-attachments/assets/0a626485-7067-43b4-9fbf-4ca41053637f)
+
+   ## 🌿 Working with Branches and Pushing to GitHub
+
+Langkah-langkah berikut akan memandu Anda untuk membuat branch baru, melakukan perubahan pada file, menambahkannya ke staging area, melakukan commit dengan pesan deskriptif, dan mengirimnya ke GitHub.
+
+---
+
+### 1. Buat Branch Baru
+Untuk membuat branch baru dan langsung berpindah ke branch tersebut, gunakan perintah berikut:
+
+```bash
+git checkout -b nama-branch-baru
+```
+### 2. Buat atau Ubah File
+Lakukan perubahan pada file yang ada atau tambahkan file baru. Misalnya, edit file Helloworld.js:
+```bash
+console.log('Hello, Javascript');
+console.log('Hello, TypeScript!');
+console.log('New Output For New Branch'); // (+) menambahkan file 
+```
+
+### 3. **Cek Status Repository**
+   Periksa status repository untuk melihat perubahan yang belum dikomit:
+   ```bash
+   git status
+   ```
+
+### 4. **Tambahkan File ke Staging Area**
+   Jalankan perintah berikut untuk menambahkan semua file ke staging area:
+   ```bash
+   git add .
+   ```
+
+### 5. **Lakukan Commit di branch baru**
+   Simpan perubahan dengan membuat commit branch baru:
+   ```bash
+   git commit -m "New branch commit"
+   ```
+### 6. Push Branch ke GitHub
+  Untuk mengirim branch baru ke GitHub, jalankan perintah berikut:
+  ```bash
+  git push origin nama-branch-baru
+  ```
+  
+  ![image](https://github.com/user-attachments/assets/6e802860-28a8-4f41-bd0a-b1eddc694a07)
+
+
+
+   
+
+
+
+
 
    
 
