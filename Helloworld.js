@@ -1,2 +1,2 @@
-console.log('Hello, TypeScript!');
+console.log('Hello, Javascript');
 console.log('Hello, TypeScript!');
