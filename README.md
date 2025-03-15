@@ -142,6 +142,53 @@ console.log('New Output For New Branch'); // (+) menambahkan file
   ![image](https://github.com/user-attachments/assets/6e802860-28a8-4f41-bd0a-b1eddc694a07)
 
 
+  ## 🔄 Creating a Pull Request, Reviewing Code, and Merging Changes
+
+Berikut adalah langkah-langkah untuk membuat Pull Request (PR), melakukan review kode, dan menggabungkan perubahan ke branch utama (misalnya `main`).
+
+---
+
+### 1. Buat Pull Request (PR)
+Setelah melakukan `git push` pada branch baru, ikuti langkah berikut untuk membuat Pull Request:
+
+1. Buka repository Anda di GitHub.
+2. Klik tab **"Pull Requests"** di bagian atas halaman.
+3. Klik tombol hijau **"New pull request"**.
+4. Pada bagian **"base"**, pilih branch utama (misalnya `main`).  
+   Pada bagian **"compare"**, pilih branch yang berisi perubahan Anda (misalnya `feature/add-login`).
+5. Klik tombol **"Create pull request"**.
+6. Beri judul yang deskriptif dan tambahkan penjelasan singkat tentang perubahan yang Anda lakukan.
+7. Klik tombol **"Create pull request"** untuk mengajukan PR.
+
+---
+
+### 2. Review Kode
+Jika Anda atau rekan tim Anda ingin meninjau kode sebelum menggabungkannya:
+
+✅ Klik pada file yang mengalami perubahan.  
+✅ Berikan komentar pada baris kode jika diperlukan.  
+✅ Pastikan kode sesuai standar dan tidak ada bug yang mencolok.  
+
+---
+
+### 3. Merge Perubahan ke Branch Utama
+Setelah kode direview dan disetujui, Anda bisa menggabungkan perubahan ke branch utama:
+
+1. Klik tombol hijau **"Merge pull request"**.
+2. Klik tombol **"Confirm merge"** untuk menyelesaikan proses.
+3. Setelah merge selesai, Anda bisa menghapus branch yang sudah digabung dengan klik tombol **"Delete branch"** (opsional untuk menjaga repository tetap rapi).
+
+---
+
+### 4. Sinkronisasi Repository Lokal (Opsional)
+Setelah merge dilakukan di GitHub, sinkronkan branch utama Anda dengan perintah berikut:
+
+```bash
+git checkout main
+git pull origin main
+
+
+
 
    
 
